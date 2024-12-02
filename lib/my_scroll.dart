@@ -11,6 +11,7 @@ class MyscrollView extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
+        //scrollDirection: Axis.horizontal, ด้านข้าง
         padding: EdgeInsets.all(10),
         child: Center(
           child: Column(
