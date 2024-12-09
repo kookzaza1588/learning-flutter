@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sample/homework_1.dart';
-import 'package:flutter_sample/homework_2.dart';
+//import 'package:flutter_sample/homework_1.dart';
+//import 'package:flutter_sample/homework_2.dart';
+//import 'package:flutter_sample/my_grid_page.dart';
+import 'package:flutter_sample/my_listview.dart';
 //import 'package:flutter_sample/my_scroll.dart';
 
 void main() {
@@ -15,7 +17,7 @@ class MainApp extends StatelessWidget {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "My flutter sample",
-      home: MyWidget() ,
+      home: MyListview() ,
     );
   }
 }
